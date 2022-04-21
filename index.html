@@ -1,0 +1,571 @@
+<!DOCTYPE HTML5>
+<html>
+
+<head>
+    
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+
+<!-- ROboto medium -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<!-- roboto medium ita -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+
+<!-- pt sans -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&family=Roboto:ital,wght@1,500&display=swap');
+    </style>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+   <div class="karkas">
+       
+    <div class="top">
+            <a href="/">  <img src="images/FashionPress.png" alt="FashionPress" class="logo"></a>
+        
+                                    <!-- Меню для регестрации -->
+        <div class="up">
+            <nav>
+                <ul>
+                    <li><a href="#">Join</a> </li>
+                    <li><a href="#">Sign In</a> </li>
+                    <li><a href="#"><span style="color: red">Shoping Bag</span>&nbsp;(0)</a> <img src="/images/Сумка.png" alt=""></li>
+                    
+                   
+                </ul>
+            </nav>
+            
+        </div>
+    </div>
+    
+      <header>
+                                        <!-- верх меню блек -->
+          <div class="osnmenu">
+                <nav>
+                    <ul>
+                        <li><a href="#">HOME</a> </li>
+                        <li><a href="#">ABOUT US</a> </li>
+                        <li><a href="#">CAREERS</a> </li>
+                        <li><a href="#">CONTACT US</a> </li>
+                        <li><a href="#">COMPANY PROFILE</a> </li>
+                        <li><a href="#">COMPANY REGESTRATION</a> </li>
+                        <li><a href="#">WISH LIST</a> </li>
+                    
+                    </ul>
+                </nav>
+            </div>
+	  </header>
+                                        <!-- Верх БАНЕР -->
+      <div class="banner">
+            <div class="banner-back-img">
+                <article>
+                    <h1> We provide worlds<br> 
+                    top fashion for less<br>
+                    fashionpress.<br>
+                    </h1> 
+                    <p>
+                        FashionPress the name of class web.<br>
+                        FreePSD
+                    </p>
+                </article>  
+                <div class="imgbunner">
+                    <img src="/images/girl.png">  
+                </div>   
+            </div>
+        </div>    
+                                    <!-- Верх поисковая строка -->
+    <div class="input">  
+<h1>
+    SEARCH PRODUCT
+</h1>    
+                                            <!--Панель  поиска  -->
+        <div class="container-form">
+            <form action="form.php">
+                <input type="text" id="serch-form" name="SEARCH" placeholder="Search">
+                    <button id="search">
+                        <img src="/images/Красная кнопка поиск.jpg" alt="">
+                    </button>
+
+            </form>
+            
+        </div>
+        <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+            </div>
+            <script>
+            $('#toggle').click(function() {
+            $(this).toggleClass('active menu_thing');
+            $('#overlay').toggleClass('open');
+            });
+            </script>
+            <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+            <ul>
+                <li><a href="#">HOME</a> </li>
+                <li><a href="#">ABOUT US</a> </li>
+                <li><a href="#">CAREERS</a> </li>
+                <li><a href="#">CONTACT US</a> </li>
+                <li><a href="#">COMPANY PROFILE</a> </li>
+                <li><a href="#">COMPANY REGESTRATION</a> </li>
+                <li><a href="#">WISH LIST</a> </li>
+            </ul>
+            </nav>
+            </div>        
+    </div>  
+    
+     
+                                         <!-- Основной контент -->
+            <div class="mein-content">
+                                        <!-- левая панель -->
+                    <div class="left-menu">
+                     
+                        <nav>
+                            <ul>
+                                <li>PRODUCTS MENU</li>
+                                <li><a href="#">Man</a> </li>
+                                <li><a href="#">Woman</a> </li>
+                                <li><a href="#">Fashion 2013</a> </li>
+                                <li><a href="#">Kids</a> </li>
+                                <li><a href="#">Jeans</a> </li>
+                                <li><a href="#">Tshirt</a> </li>
+                                <li><a href="#">Top Fashion</a> </li>
+                                <li><a href="#">Sumber collection</a> </li>
+                                <li><a href="#">Special Offer</a> </li>
+                            </ul>
+                        </nav>
+                       <div class="gps">
+                        <img src="/images/GPS.jpg" alt="">
+                       </div>
+                        
+                                <div class="twitter">
+                                    <article>
+                                    <h2>
+                                        <span style="color: red">Latest from  twitter</span>
+                                    </h2>
+                                     </article>        
+                                                         <!-- Твиты -->
+                                    <div class="twits">
+                                        <div class="one-twit">
+                                            <div class="ptickaimg">
+                                                <img src="/images/Птичка.jpg" alt="">
+                                            </div>
+                                            
+                                   
+                                            <p>
+                                                <span style="color: red">@crucio</span>&nbsp;what an incredible site!<br> less than a minute ago                                           
+                                            </p>
+                                   
+                                        </div>
+
+                                        <div class="one-twit">
+                                            <div class="ptickaimg">
+                                                <img src="/images/Птичка.jpg" alt="">
+                                            </div>
+                                            <p>                                             
+                                                <span style="color: red">@lukebeck</span>&nbsp;  love this theme,<br> tons of options, lots of goodies<br> and crazy good support.  I cant<br> ask for anything better!<br>
+                                                 about 3 hours ago                                         
+                                            </p>                                            
+                                        </div>
+
+                                        <div class="one-twit">
+                                            <div class="ptickaimg">
+                                                <img src="/images/Птичка.jpg" alt="">
+                                            </div>                                         
+                                            <p>                                            
+                                                <span style="color: red">@harikumar</span>&nbsp;  where do you get<br> support for account issues?<br>  
+                                                <span style="color: red">http://t.co/sr324nLrQw<br>less</span>&nbsp; than a minute ago  
+                                            </p>
+                                             
+                                        </div>
+                                    </div>
+                                </div>  
+                                    <div class="client">
+                                        <article>
+                                            <h2>
+                                                <span style="color: red">OUR HAPPY CLIENTS</span>
+                                            </h2>
+                                        </article>
+                                            <div class="textvobloco">
+                                                <div class="textna">
+                                                    <p>
+                                                    “Neque porro quisquam est, qui<br> dolorem ipsum quia dolor sit<br> amet, consec tetur, adipisci velit,<br> sed quia non numquam 
+                                                    eius<br> labore et dolore magnam ets<br> aliquam quaerat voluptatemser.<br>  
+                                                    Enim ad minimas venians amet
+                                                </p>
+                                                </div>
+                                                
+                                                
+                                            </div>
+                                            <img src="/images/человек под облаком.jpg" alt="">
+                                            <div class="textpod">
+                                                <p>
+                                                    Jon Doe, Company Inc.
+                                                </p>
+                                            </div>
+                                    </div>
+                            <div class="tablica"> 
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                Kids Moon
+                                            </td>
+                                            <td>
+                                                Serax fibrepots
+                                            </td>
+                                            <td>
+                                                OUR HAPPY CLIENTS
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Footed Tights
+                                            </td>
+                                            <td>
+                                                Latest from twitter
+                                            </td>
+                                            <td>
+                                                SEARCH PRODUCT
+
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                FACEBOOK
+                                            </td>
+                                            <td>
+                                                GOOGLE
+                                            </td>
+                                            <td>
+                                                INSTAGRAM
+                                            </td>
+                                        </tr>
+                                    </table>
+                            </div>
+                            <audio controls src="/bohemian_rhapsody_12. Queen - Another One Bites The Dust.mp3"></audio>
+                                    
+                    </div> 
+                      <!--ОСНОВНОЙ КОНТЕНТ ВЕЩИ  -->
+                     <div class="osnovacontent">
+                <div class="gallery">       
+                       <div class="box-1">
+                        <img class="kartinki"  src="/images/pervia polosa/шмотки первой полосы.jpg" alt="">
+                            <div class="text-pod">
+                        <p>
+                            Kids Moon Colorblock<br> Footed Tights
+                        </p>
+                        <hr>
+                            </div>
+                            
+                        <div class="cennik">
+                            <img class="cena8" src="/images/цена/цена 8 99.jpg" alt="">
+                            <div class="otstup">
+
+                            </div>
+                            <button>
+                                GET IT
+                            </button>
+                        </div>
+                       </div>
+                       <div class="box-2">
+                       
+                       <video class="vidios" autoplay loop controls muted source src="/Показ Мод Louis Vuitton Весна 2015_ Louis Vuitton Women's Spring 2015 Fashion Show Highlights.mp4" type="video/mp4">Your browser doesn't support HTML5 video tag.</video>
+                       <div class="text-pod-big">   
+                        <p>Serax fibrepots</p>
+                        
+                            </div>
+                                 <div class="cennik-big">   
+                        <img class="cena24" src="/images/цена/цена 24 99.jpg" alt="">
+                            <div class="knopka-big">
+                        <button>
+                            GET IT
+                        </button>
+                                </div>
+                            </div>
+                       </div>
+                       <div class="box-3">
+                        <img class="kartinki"  src="/images/vtoraia polosa/картинка 1 полоса 2 .jpg" alt="">
+                            <div class="text-pod">
+                        <p>
+                            Kids Moon Colorblock<br> Footed Tights
+                        </p>
+                        <hr>
+                            </div>
+                            <div class="cennik">  
+                        <img class="cena8" src="/images/цена/цена 8 99.jpg" alt="">
+                            <button>
+                                GET IT
+                            </button>
+                       </div>
+                            </div>
+                       <div class="box-4">  
+                        <img class="kartinki"  src="/images/vtoraia polosa/картинка 2полоса 2.jpg" alt="">
+                             <div class="text-pod">
+                        <p>
+                            Kids Moon Colorblock<br>Footed Tights
+                        </p>
+                        <hr>
+                             </div>
+                             <div class="cennik">
+                        <img class="cena8" src="/images/цена/цена 8 99.jpg" alt="">
+                            <button>
+                                GET IT
+                            </button>   
+                       </div>
+                            </div>
+                       <div class="box-5">
+                        <img class="kartinki"  src="/images/vtoraia polosa/картинка 3 полоса 2.jpg" alt="">
+                            <div class="text-pod">
+                        <p>
+                            Kids Moon Colorblock<br>Footed Tights
+                        </p>
+                        <hr>
+                            </div>
+                            <div class="cennik">
+                        <img class="cena8" src="/images/цена/цена 8 99.jpg" alt="">
+                            <button>
+                                GET IT
+                            </button>   
+
+                       </div>
+                            </div>
+                       <div class="box-6">
+                        <img class="kartinki"  src="/images/tretia polosa/картинка 1 полоса 3.jpg" alt="">
+                            <div class="text-pod">
+                        <p>
+                            Kids Moon Colorblock<br>Footed Tights
+                        </p>
+                        <hr>
+                            </div>
+                            <div class="cennik">
+                        <img class="cena8" src="/images/цена/цена 8 99.jpg" alt="">
+                            <button>
+                                GET IT
+                            </button>   
+                       </div>
+                             </div>
+                       <div class="box-7">
+                        <img class="kartinki"  src="/images/tretia polosa/картинка 2 полоса 3 .jpg" alt="">
+                            <div class="text-pod">
+                        <p>
+                            Kids Moon Colorblock<br>Footed Tights
+                        </p>
+                        <hr>
+                            </div>
+                            <div class="cennik">
+                        <img class="cena8" src="/images/цена/цена 8 99.jpg" alt="">
+                            <button>
+                                GET IT
+                            </button>   
+                            </div>
+                       </div>
+                       <div  class="box-8">
+                        <img class="kartinki" src="/images/tretia polosa/картика 3 полоса 3.jpg" alt="">
+                            <div class="text-pod">
+                        <p>
+                            Kids Moon Colorblock<br>Footed Tights
+                        </p>
+                        <hr>
+                            </div>
+                            <div class="cennik">
+                        <img class="cena8"   src="/images/цена/цена 8 99.jpg" alt="">
+                            <button>
+                                GET IT
+                            </button>   
+
+                       </div>
+                       </div>
+                                <div class="mejdu">
+                                    <P> <span style="color: red">POPULAR</span>&nbsp;PRODUTS NOW </P> 
+                                </div>
+                        
+                </div>
+
+               
+            <div class="gallery">
+                <div class="box-1">
+                    <img class="kartinki"  src="/images/2  block 1 polosa/1 polosa 1 .jpg" alt="">
+                         <div class="text-pod">
+                    <p>
+                        Kids Moon Colorblock<br> Footed Tights
+                    </p>
+                    <hr>
+                         </div>
+                         <div class="cennik">
+                    <img class="cena8" src="/images/цена/цена 8 99.jpg" alt="">
+                        <button>
+                            GET IT
+                        </button>
+                   </div>
+                </div>
+                   <div class="box-10">
+                    <img class="kartinki" src="/images/2  block 1 polosa/1 polosa 2.jpg" alt="">
+                        <div class="text-pod">    
+                    <p>Kids Moon Colorblock<br>Footed Tights</p>
+                    <hr>
+                        </div>
+                        <div class="cennik">
+                    <img class="cena8" src="/images/цена/цена 8 99.jpg" alt="">
+                    <button>
+                        GET IT
+                    </button>
+                     
+                   </div>
+                   </div>
+                   <div class="box-3">
+                    <img class="kartinki"  src="/images/2  block 1 polosa/1 polosa 3.jpg" alt="">
+                        <div class="text-podbox3">     
+                            <p>
+                        Kids Moon Colorblock<br> Footed Tights
+                    </p>  
+                    <hr>
+                        </div>
+                        <div class="cennik">
+                    <img class="cena8" src="/images/цена/цена 8 99.jpg" alt="">
+                        <button>
+                            GET IT
+                        </button>
+                   </div>
+                   </div>
+                   <div class="box-4">  
+                    <img class="kartinki"  src="/images/2  block 1 polosa/2 polosa 1.jpg" alt="">
+                        <div class="text-pod">
+                    <p>
+                        Kids Moon Colorblock<br>Footed Tights
+                    </p>
+                    <hr>
+                        </div>
+                        <div class="cennik">
+                    <img class="cena8" src="/images/цена/цена 8 99.jpg" alt="">
+                        <button>
+                            GET IT
+                        </button>   
+                   </div>
+                   </div>
+                
+                       <div class="box-9">
+                    <img class="kartinki" src="/images/2  block 1 polosa/2 polosa 2 .jpg" alt="">
+                        <div class="text-pod-big">
+                    <p>Serax fibrepots</p>
+                        </div>
+                        <div class="cennik-big">
+                    <img  class="cena24" src="/images/цена/цена 24 99.jpg" alt="">
+                        <div class="knopka-big">    
+                    <button>
+                            GET IT  
+                        </button>   
+                         </div>
+                   </div>
+                   
+                       
+                </div>
+            </div>   
+                    </div>
+                    
+                                
+            </div>
+                            <!--лента бекграунд  -->
+                            <div class="back-lenta">
+                                <img src="/images/polosa.jpg" alt="">
+                        </div>  
+                                <!-- footer  -->
+                        <footer>
+                            <div class="mass">
+                             
+                                <div class="kolonka1">
+                                    
+                                    <h3>
+                                     ABOUT
+                                    </h3>
+                                    <div class="razdel1">
+                                        <div class="logotip">
+                                    <img src="images/FashionPress.png">
+                                        </div>
+                                    <p>
+                     Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit.
+                      Phasellus sollicitudin sem<br> nec leo tempus fermentum. Integer<br> consequat,
+                       turpis eget lobortis.
+                                    </p>
+                                </div>
+                              </div>
+                              <div class="kolonka2">
+                                  <h3>
+                                      FOLLOW US
+                                  </h3>
+                                  <div class="massblock">
+                                    <div class="razdel2">
+                                    <div class="massblock-item">
+                                    
+                                        <img src="/images/mass/facebook.jpg" alt="">
+                                        <p>
+                                            FACEBOOK
+                                        </p>
+                                    </div>
+                                    <div class="massblock-item">
+                                        <img src="/images/mass/twitt.jpg" alt="">
+                                        <p>
+                                            TWITTER
+                                        </p>
+                                    </div>
+                                    <div class="massblock-item">
+                                        <img src="/images/mass/google.jpg" alt="">
+                                        <p>
+                                            GOOGLE
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="massblock-item">
+                                        <img src="/images/mass/insta.jpg" alt="">
+                                        <p>
+                                            INSTAGRAM
+                                        </p>
+                                    </div>
+                                </div>
+                                </div>
+                              </div>
+                              <div class="kolonka3">
+                                  <h3>
+                                      CONTACT US
+                                  </h3>
+                                  <p>
+                                    Phone: 1.800.555.6789<br>
+                                    Fax: 1.888.555.9876<br>
+                                    Email: letschat@11thagency.com
+                                    
+                                  </p>
+                              </div>
+                              <div class="kolonka4">
+                                  <div class="fon-text">  
+                                        <p>
+                                            John Doe, Comapny Inc.<br>
+                                            12345 North Main Street<br>
+                                            Anywhere, USA
+                                        </p>
+                                  </div>
+                              </div>
+                            </div>
+                    <div class="podval">
+                                <li><a href="#">Terms of Service</a> </li>
+                                <li><a href="#">Privacy Policy</a> </li>
+                                <li><a href="#">Privacy Policy</a> </li>
+                                <li><a href="#">Privacy Policy</a> </li>
+                                <li><a href="#">Support & FAQ</a> </li>
+                               <p>
+                                GIVE AWAY BY 11THAGENCY.COM
+                               </p>
+                    </div>        
+
+                        </footer>
+                        
+   </div>
+
+</body>
+</html>
